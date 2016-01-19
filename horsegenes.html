@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+<HTML>
+   <HEAD>
+      <TITLE>Horse Genome Generator</TITLE>
+
+      <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+      <!-- Custom styles -->
+      <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+      <link href="assets/css/main.css" rel="stylesheet">
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/modernizr.custom.js"></script>
+   </HEAD>
+   <BODY>
+     <div class="container">
+      <h1>Basic Horse Gene Generator</h1>
+
+      	<input id="generator" type="button" value="Generate!" />
+      	<p>Locus options here:</p>
+      	<select name="theMenu" id ="setMenu">
+      		<option selected value="real">Real Set</option>
+      		<option value="real1">Real + Fake Set 1</option>
+      		<option value="real2">Real + Fake Set 2</option>
+      		<option value="real1_2">Real + Fake Set 1 and 2</option>
+      	</select>
+
+      <h3>How it works</h3>
+      	<p>Click the button and get a randomly generated gene set.<p>
+      	<p>The current version:</p>
+      		<ul>
+      			<li>Generates randomly from your chosen locus sets.</li>
+      			<li>Does <em>not</em> acccount for locus interactions.</li>
+      		</ul>
+      	<p>Let me know what sucks and I'll try to fix it.</p>
+      </div>
+
+
+   </BODY>
+   <script src="assets/js/jquery.min.js"></script>
+   <script src="horsegenes(master).js"></script>
+</HTML>
